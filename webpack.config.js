@@ -6,7 +6,7 @@ module.exports = {
   entry: './src/index.js',
   output: {
     path: path.join(__dirname, 'build'),
-    filename: isProduction ? 'index.min.js' : 'index.js',
+    filename: 'index.js',
     library: 'Piano',
     libraryTarget: 'umd',
   },
